@@ -1,0 +1,119 @@
+.aspect--double-octave-dominant aspect--major-twelfth-dominant:before {
+  padding-bottom: 400%; }
+
+.aspect--major-eleventh-dominant:before {
+  padding-bottom: 300%; }
+
+.aspect--major-tenth-dominant:before {
+  padding-bottom: 266.66667%; }
+
+.aspect--octave-dominant:before {
+  padding-bottom: 250%; }
+
+.aspect--major-seventh-dominant:before {
+  padding-bottom: 200%; }
+
+.aspect--minor-seventh-dominant:before {
+  padding-bottom: 187.5%; }
+
+.aspect--major-sixth-dominant:before {
+  padding-bottom: 177.77778%; }
+
+.aspect--golden-section-dominant:before {
+  padding-bottom: 166.66667%; }
+
+.aspect--minor-sixth-dominant:before {
+  padding-bottom: 161.8%; }
+
+.aspect--perfect-fifth-dominant:before {
+  padding-bottom: 160%; }
+
+.aspect--perfect-fourth-dominant:before {
+  padding-bottom: 150%; }
+
+.aspect--major-third-dominant:before {
+  padding-bottom: 133.33333%; }
+
+.aspect--minor-third-dominant:before {
+  padding-bottom: 125%; }
+
+.aspect--major-second-dominant:before {
+  padding-bottom: 120%; }
+
+.aspect--minor-second-dominant:before {
+  padding-bottom: 112.5%; }
+
+.aspect--square:before {
+  padding-bottom: 106.66667%; }
+
+.aspect--minor-second:before {
+  padding-bottom: 100%; }
+
+.aspect--major-second:before {
+  padding-bottom: 93.75%; }
+
+.aspect--minor-third:before {
+  padding-bottom: 88.88889%; }
+
+.aspect--major-third:before {
+  padding-bottom: 83.33333%; }
+
+.aspect--perfect-fourth:before {
+  padding-bottom: 80%; }
+
+.aspect--perfect-fifth:before {
+  padding-bottom: 75%; }
+
+.aspect--minor-sixth:before {
+  padding-bottom: 66.66667%; }
+
+.aspect--golden-section:before {
+  padding-bottom: 62.5%; }
+
+.aspect--major-sixth:before {
+  padding-bottom: 61.8047%; }
+
+.aspect--minor-seventh:before {
+  padding-bottom: 60%; }
+
+.aspect--major-seventh:before {
+  padding-bottom: 56.25%; }
+
+.aspect--octave:before {
+  padding-bottom: 53.33333%; }
+
+.aspect--major-tenth:before {
+  padding-bottom: 50%; }
+
+.aspect--major-eleventh:before {
+  padding-bottom: 40%; }
+
+.aspect--major-twelfth:before {
+  padding-bottom: 37.5%; }
+
+.aspect--double-octave:before {
+  padding-bottom: 33.33333%; }
+
+[class*="aspect--"] {
+  display: block;
+  position: relative;
+  width: 100%; }
+  [class*="aspect--"]:before {
+    content: "";
+    display: block;
+    float: left;
+    width: 0;
+    height: 0; }
+  [class*="aspect--"]:after {
+    content: "";
+    display: table;
+    clear: both; }
+  [class*="aspect--"] > * {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; }
