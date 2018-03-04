@@ -1,6 +1,6 @@
 {
-  "name": "aspect",
-  "version": "0.1.0",
+  "name": "aspect-css",
+  "version": "0.2.0",
   "description": "A series of CSS aspect ratios",
   "main": "index.css",
   "scripts": {
