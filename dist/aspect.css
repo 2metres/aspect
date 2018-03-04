@@ -1,98 +1,101 @@
-.aspect--double-octave-dominant aspect--major-twelfth-dominant:before {
+.aspect--quadruple:before {
   padding-bottom: 400%; }
 
-.aspect--major-eleventh-dominant:before {
+.aspect--triple:before {
   padding-bottom: 300%; }
 
-.aspect--major-tenth-dominant:before {
+.aspect--eight-thirds:before {
   padding-bottom: 266.66667%; }
 
-.aspect--octave-dominant:before {
+.aspect--five-halves:before {
   padding-bottom: 250%; }
 
-.aspect--major-seventh-dominant:before {
+.aspect--double:before {
   padding-bottom: 200%; }
 
-.aspect--minor-seventh-dominant:before {
+.aspect--fifteen-eighths:before {
   padding-bottom: 187.5%; }
 
-.aspect--major-sixth-dominant:before {
+.aspect--sixteen-ninths:before {
   padding-bottom: 177.77778%; }
 
-.aspect--golden-section-dominant:before {
+.aspect--five-thirds:before {
   padding-bottom: 166.66667%; }
 
-.aspect--minor-sixth-dominant:before {
+.aspect--golden-portrait:before {
   padding-bottom: 161.8%; }
 
-.aspect--perfect-fifth-dominant:before {
+.aspect--eigth-fifths:before {
   padding-bottom: 160%; }
 
-.aspect--perfect-fourth-dominant:before {
+.aspect--three-halves:before {
   padding-bottom: 150%; }
 
-.aspect--major-third-dominant:before {
+.aspect--four-thirds:before {
   padding-bottom: 133.33333%; }
 
-.aspect--minor-third-dominant:before {
+.aspect--five-fourths:before {
   padding-bottom: 125%; }
 
-.aspect--major-second-dominant:before {
+.aspect--six-fifths:before {
   padding-bottom: 120%; }
 
-.aspect--minor-second-dominant:before {
+.aspect--nine-eighths:before {
   padding-bottom: 112.5%; }
 
-.aspect--square:before {
+.aspect--sixteen-fifteens:before {
   padding-bottom: 106.66667%; }
 
-.aspect--minor-second:before {
+.aspect--square:before {
   padding-bottom: 100%; }
 
-.aspect--major-second:before {
+.aspect--fifteen-sixteenths:before {
   padding-bottom: 93.75%; }
 
-.aspect--minor-third:before {
+.aspect--eight-ninths:before {
   padding-bottom: 88.88889%; }
 
-.aspect--major-third:before {
+.aspect--five-sixths:before {
   padding-bottom: 83.33333%; }
 
-.aspect--perfect-fourth:before {
+.aspect--four-fifths:before {
   padding-bottom: 80%; }
 
-.aspect--perfect-fifth:before {
+.aspect--three-fourths:before {
   padding-bottom: 75%; }
 
-.aspect--minor-sixth:before {
+.aspect--two-thirds:before {
   padding-bottom: 66.66667%; }
 
-.aspect--golden-section:before {
+.aspect--five-eighths:before {
   padding-bottom: 62.5%; }
 
-.aspect--major-sixth:before {
+.aspect--golden-landscape:before {
   padding-bottom: 61.8047%; }
 
-.aspect--minor-seventh:before {
+.aspect--three-fifths:before {
   padding-bottom: 60%; }
 
-.aspect--major-seventh:before {
+.aspect--nine-sixteenths:before {
   padding-bottom: 56.25%; }
 
-.aspect--octave:before {
+.aspect--eight-fifteenths:before {
   padding-bottom: 53.33333%; }
 
-.aspect--major-tenth:before {
+.aspect--one-half:before {
   padding-bottom: 50%; }
 
-.aspect--major-eleventh:before {
+.aspect--two-fifths:before {
   padding-bottom: 40%; }
 
-.aspect--major-twelfth:before {
+.aspect--three-eighths:before {
   padding-bottom: 37.5%; }
 
-.aspect--double-octave:before {
+.aspect--one-third:before {
   padding-bottom: 33.33333%; }
+
+.aspect--one-fourth:before {
+  padding-bottom: 25%; }
 
 [class*="aspect--"] {
   display: block;

@@ -1,10 +1,10 @@
 {
   "name": "aspect-css",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A series of CSS aspect ratios",
   "main": "index.css",
   "scripts": {
-    "build": "node-sass --use autoprefixer src/index.scss -o dist/",
+    "build": "node-sass --use autoprefixer scss/aspect.scss -o dist/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
