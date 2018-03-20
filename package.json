@@ -1,6 +1,6 @@
 {
   "name": "aspect-css",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "A series of CSS aspect ratios",
   "main": "index.css",
   "scripts": {
@@ -25,6 +25,7 @@
   "homepage": "https://github.com/2metres/aspect#readme",
   "devDependencies": {
     "autoprefixer": "^7.1.6",
+    "bootstrap": "^4.0.0",
     "node-sass": "^4.6.0"
   }
 }
