@@ -468,7 +468,7 @@
   .aspect--xl-one-fourth:before {
     padding-bottom: 25%; } }
 
-[class*="aspect--"] {
+[class*="aspect-"] {
   display: block;
   position: relative;
   width: 100%; }
