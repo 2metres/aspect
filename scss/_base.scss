@@ -47,7 +47,10 @@
     clear: both;
   }
 
-  > * {
+  > svg,
+  > img,
+  > video,
+  > iframe {
     display: block;
     position: absolute;
     width: 100%;
