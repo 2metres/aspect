@@ -1,4 +1,7 @@
 @for $i from 0 to length($scale-names) {
+  %aspect--#{nth($scale-names, $i + 1)} {
+    @include aspect-container($ratio: nth($scales, $i + 1));
+  }
   .aspect--#{nth($scale-names, $i + 1)} {
     @extend %aspect--#{nth($scale-names, $i + 1)};
   }
@@ -9,6 +12,9 @@
 
   @include media-breakpoint-up($breakpoint, $grid-breakpoints) {
     @for $i from 0 to length($scale-names) {
+      %aspect-#{$infix}-#{nth($scale-names, $i + 1)} {
+        @include aspect-container($ratio: nth($scales, $i + 1));
+      }
       .aspect-#{$infix}-#{nth($scale-names, $i + 1)} {
         @extend %aspect-#{$infix}-#{nth($scale-names, $i + 1)};
       }
