@@ -1,33 +1,3 @@
-@mixin aspect-container($ratio) {
-  &:before {
-    padding-bottom: $ratio * 100%;
-  }
-}
-
-@for $i from 0 to length($scale-names) {
-  %aspect--#{nth($scale-names, $i + 1)} {
-    @include aspect-container($ratio: nth($scales, $i + 1));
-  }
-  .aspect--#{nth($scale-names, $i + 1)} {
-    @extend %aspect--#{nth($scale-names, $i + 1)};
-  }
-}
-
-@each $breakpoint in map-keys($grid-breakpoints) {
- $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
-
-  @include media-breakpoint-up($breakpoint, $grid-breakpoints) {
-    @for $i from 0 to length($scale-names) {
-      %aspect-#{$infix}-#{nth($scale-names, $i + 1)} {
-        @include aspect-container($ratio: nth($scales, $i + 1));
-      }
-      .aspect-#{$infix}-#{nth($scale-names, $i + 1)} {
-        @extend %aspect-#{$infix}-#{nth($scale-names, $i + 1)};
-      }
-    }
-  }
-}
-
 [class*="aspect-"]  {
   display: block;
   position: relative;
