@@ -1,6 +1,6 @@
 {
   "name": "aspect-css",
-  "version": "0.7.4",
+  "version": "0.7.5",
   "description": "A series of CSS aspect ratios",
   "main": "index.css",
   "scripts": {
@@ -26,6 +26,6 @@
   "devDependencies": {
     "autoprefixer": "^7.1.6",
     "bootstrap": "^4.0.0",
-    "node-sass": "^4.9.0"
+    "node-sass": "^4.9.3"
   }
 }

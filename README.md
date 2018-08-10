@@ -24,7 +24,7 @@ A series of CSS aspect ratios
 `aspect--five-fourths`       | **5 : 4**
 `aspect--six-fifths`         | **6 : 5**
 `aspect--nine-eighths`       | **9 : 8**
-`aspect--sixteen-fifteens`   | **16 : 15**
+`aspect--sixteen-fifteenths` | **16 : 15**
 `aspect--square`             | **1 : 1**
 `aspect--fifteen-sixteenths` | **15 : 16**
 `aspect--eight-ninths`       | **8 : 9**

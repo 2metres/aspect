@@ -43,7 +43,7 @@
 .aspect--nine-eighths:before {
   padding-bottom: 112.5%; }
 
-.aspect--sixteen-fifteens:before {
+.aspect--sixteen-fifteenths:before {
   padding-bottom: 106.66667%; }
 
 .aspect--square:before {
@@ -160,7 +160,7 @@
 .aspect--nine-eighths:before {
   padding-bottom: 112.5%; }
 
-.aspect--sixteen-fifteens:before {
+.aspect--sixteen-fifteenths:before {
   padding-bottom: 106.66667%; }
 
 .aspect--square:before {
@@ -263,7 +263,7 @@
     padding-bottom: 120%; }
   .aspect--sm-nine-eighths:before {
     padding-bottom: 112.5%; }
-  .aspect--sm-sixteen-fifteens:before {
+  .aspect--sm-sixteen-fifteenths:before {
     padding-bottom: 106.66667%; }
   .aspect--sm-square:before {
     padding-bottom: 100%; }
@@ -343,7 +343,7 @@
     padding-bottom: 120%; }
   .aspect--md-nine-eighths:before {
     padding-bottom: 112.5%; }
-  .aspect--md-sixteen-fifteens:before {
+  .aspect--md-sixteen-fifteenths:before {
     padding-bottom: 106.66667%; }
   .aspect--md-square:before {
     padding-bottom: 100%; }
@@ -423,7 +423,7 @@
     padding-bottom: 120%; }
   .aspect--lg-nine-eighths:before {
     padding-bottom: 112.5%; }
-  .aspect--lg-sixteen-fifteens:before {
+  .aspect--lg-sixteen-fifteenths:before {
     padding-bottom: 106.66667%; }
   .aspect--lg-square:before {
     padding-bottom: 100%; }
@@ -503,7 +503,7 @@
     padding-bottom: 120%; }
   .aspect--xl-nine-eighths:before {
     padding-bottom: 112.5%; }
-  .aspect--xl-sixteen-fifteens:before {
+  .aspect--xl-sixteen-fifteenths:before {
     padding-bottom: 106.66667%; }
   .aspect--xl-square:before {
     padding-bottom: 100%; }
